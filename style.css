@@ -1,3 +1,62 @@
 body {
-    background-color: red;
+    font: 1rem/1.5 var(--bs-font-sans-serif);
+    background-color: whitesmoke;
+}
+
+
+a {
+    color: var(--bs-blue);
+}
+
+.container {
+    min-width: 300px;
+    max-width: 600px;
+}
+
+nav {
+    margin-top: 2rem;
+}
+
+form>div {
+    padding-top: 2rem;
+}
+
+.callout {
+    --bs-link-color-rgb: var(--bd-callout-link);
+    --bs-code-color: var(--bd-callout-code-color);
+    padding: 1.25rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    color: var(--bd-callout-color, inherit);
+    background-color: var(--bd-callout-bg, var(--bs-gray-100));
+    border-left: 0.25rem solid var(--bd-callout-border, var(--bs-gray-300));
+}
+
+.callout-info {
+    --bd-callout-color: var(--bs-info-text-emphasis);
+    --bd-callout-bg: var(--bs-info-bg-subtle);
+    --bd-callout-border: var(--bs-info-border-subtle);
+}
+
+.submitbtn {
+    margin: auto;
+    max-width: 100px;
+}
+
+.submitbtn button {
+    font-size: 1.3rem;
+}
+
+.footer {
+    background-color: azure;
+    margin: 4rem auto;
+    padding: 2rem;
+    max-width: 500px;
+    border-radius: 25px;
+    border: solid grey 2px;
+}
+
+.footer .linkFooter {
+    margin: auto;
+    color: grey;
 }

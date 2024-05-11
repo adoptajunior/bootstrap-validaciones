@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="presentacion.css">
+    <title>Bootstrap Presentación</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h3>[ Vuelve a la página principal <a href="vista1.html">AQUÍ</a> ]</h3>
+        <h2>Crea una presentación de Bootstrap que solvente las siguientes cuestiones:</h2>
+        <div class="accordion">
+            <div class="accordion-item">
+                <button id="accordion-button-1" aria-expanded="false">
+                    <span class="accordion-title">
+                        01. ¿Qué es Bootstrap? ¿Para qué sirve?
+                    </span>
+                    <span class="icon" aria-hidden="true"></span>
+                </button>
+                <div class="accordion-content">
+                    <p>Bootstrap es un framework de desarrollo web gratuito y de código abierto. Está diseñado para
+                        facilitar el proceso de desarrollo de los sitios web responsivos y orientados a los dispositivos
+                        móviles,
+                        proporcionando una colección de sintaxis para diseños de plantillas. Ayuda a los desarrolladores
+                        a construir sitios web más rápidamente, ya que no tienen que preocuparse por los comandos y
+                        funciones básicos. Consta de scripts basados
+                        en HTML, CSS y JS para diversas funciones y componentes relacionados con el diseño web.
+                    </p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <button id="accordion-button-2" aria-expanded="false">
+                    <span class="accordion-title">
+                        02. ¿Por qué usar Bootstrap?
+                    </span>
+                    <span class="icon" aria-hidden="true"></span>
+                </button>
+                <div class="accordion-content">
+                    <p>Una de las razones por las que Bootstrap es tan popular entre los desarrolladores y diseñadores
+                        web es que tiene una estructura de archivos sencilla. Sus archivos están compilados para
+                        facilitar el acceso y sólo se requieren conocimientos básicos de HTML, CSS y JS para
+                        modificarlos.
+
+                        También puedes utilizar los temas de los sistemas de gestión de contenidos más populares como
+                        herramientas de aprendizaje. Por ejemplo, la mayoría de los temas de WordPress se han
+                        desarrollado con Bootstrap, a los que puede acceder cualquier desarrollador web principiante.
+                    </p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <button id="accordion-button-3" aria-expanded="false">
+                    <span class="accordion-title">
+                        03. Características de Bootstrap.
+                    </span>
+                    <span class="icon" aria-hidden="true"></span>
+                </button>
+                <div class="accordion-content">
+                    <p>Bootstrap proporciona documentación para los desarrolladores que quieran aprender a utilizar este
+                        framework por primera vez. Aquí hay varios temas que puedes encontrar en la página de <a
+                            href="https://getbootstrap.com/docs/5.3/getting-started/introduction/">documentación.</a>
+                    </p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <button id="accordion-button-4" aria-expanded="false">
+                    <span class="accordion-title">
+                        04. Ventajas y desventajas de usar Bootstrap.
+                    </span>
+                    <span class="icon" aria-hidden="true"></span></button>
+                <div class="accordion-content">
+                    <p>A pesar de sus ventajas, Bootstrap tiene ciertas limitaciones que no son adecuadas para
+                        determinados tipos de proyectos.
+
+                        Dado que Bootstrap tiene un estilo visual consistente, necesita una fuerte personalización y
+                        sustitución de estilos para hacer que un proyecto sea diferente de otro. De lo contrario, todos
+                        los sitios web construidos con este framework tendrán los mismos componentes de navegación,
+                        estructura y diseño, lo que les dará un aspecto poco profesional.
+
+                        El hecho de tener un gran número de funciones implica que los archivos son de gran tamaño. El
+                        uso de Bootstrap en tu proyecto puede ralentizar el tiempo de carga del sitio web y sobrecargar
+                        tu servidor. Para evitar este problema, asegúrate de añadir sólo las clases que necesites y
+                        utiliza la versión minificada de los archivos.</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <button id="accordion-button-5" aria-expanded="false">
+                    <span class="accordion-title">
+                        05. Cómo instalar o implementar Bootstrap en mi proyecto.
+                    </span>
+                    <span class="icon" aria-hidden="true"></span>
+                </button>
+                <div class="accordion-content">
+                    <p>Bootstrap consiste en una colección de sintaxis compilada en tres archivos principales:
+                        Bootstrap.css, Bootstrap.js y Glyphicons. Hay que tener en cuenta que Bootstrap requiere una
+                        librería JS llamada jQuery para ejecutar plugins y componentes JS.
+
+                        Estos son los tres archivos principales del framework que gestionan la interfaz de usuario y la
+                        funcionalidad de un sitio web.</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <button id="accordion-button-6" aria-expanded="false">
+                    <span class="accordion-title">
+                        06. ¿Se puede implementar responsive con Bootstrap? Si es así, ¿podrías explicar cómo funciona y
+                        poner un ejemplo?
+                    </span>
+                    <span class="icon" aria-hidden="true"></span>
+                </button>
+                <div class="accordion-content">
+                    <p>Claro que sí, guapi. El sistema de rejilla de Bootstrap tiene dos clases de contenedores para
+                        adaptarse mejor a los
+                        proyectos de escritorio y móviles: un contenedor fijo (.container) y un contenedor fluido
+                        (.container-fluid).
+
+                        La primera clase de contenedor proporciona un contenedor de ancho fijo, mientras que la segunda
+                        ofrece un contenedor de ancho completo capaz de ajustar tu proyecto a todos los tamaños de
+                        pantalla.</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <button id="accordion-button-7" aria-expanded="false">
+                    <span class="accordion-title">
+                        07. ¿Que es un componente de Bootstrap? Pon un ejemplo.
+                    </span>
+                    <span class="icon" aria-hidden="true"></span>
+                </button>
+                <div class="accordion-content">
+                    <p>Los componentes de Bootstrap se construyen en gran medida con una nomenclatura de modificador
+                        base. Agrupamos tantas propiedades compartidas como sea posible en una clase base, como .btn, y
+                        luego agrupamos estilos individuales para cada variante en clases de modificadores, como
+                        .btn-primary o .btn-success.</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <button id="accordion-button-8" aria-expanded="false">
+                    <span class="accordion-title">
+                        08. ¿Hay muchos tipos de diseños en Bootstrap? Si los hay, explícalos.
+                    </span>
+                    <span class="icon" aria-hidden="true"></span>
+                </button>
+                <div class="accordion-content">
+                    <p>Bootstrap nos permite crear gran variedad de diseños dependiendo de las funcionalidades que
+                        necesitemos. También cuenta con una variedad de plantillas pre-diseñadas que puedes consultar <a
+                            href="https://themes.getbootstrap.com/">aquí</a>.</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <button id="accordion-button-9" aria-expanded="false">
+                    <span class="accordion-title">
+                        09. ¿Cuáles son los diferentes tipos de botones en Bootstrap? Pon ejemplos.
+                    </span>
+                    <span class="icon" aria-hidden="true"></span>
+                </button>
+                <div class="accordion-content">
+                    <p>Bootstrap incluye varios estilos de botones predefinidos, cada uno con su propio propósito
+                        semántico, con algunos extras incluidos para un mayor control. </p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <button id="accordion-button-10" aria-expanded="false">
+                    <span class="accordion-title">
+                        10. ¿Qué es un Carousel de Bootstrap? Pon un ejemplo.
+                    </span>
+                    <span class="icon" aria-hidden="true"></span>
+                </button>
+                <div class="accordion-content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium
+                        viverra suspendisse potenti.</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <button id="accordion-button-11" aria-expanded="false">
+                    <span class="accordion-title">
+                        11. ¿Qué es un spinner de Bootstrap? Pon un ejemplo.
+                    </span>
+                    <span class="icon" aria-hidden="true"></span>
+                </button>
+                <div class="accordion-content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium
+                        viverra suspendisse potenti.</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <button id="accordion-button-12" aria-expanded="false">
+                    <span class="accordion-title">
+                        12. ¿Qué es un navBar de Bootstrap? Pon un ejemplo.
+                    </span>
+                    <span class="icon" aria-hidden="true"></span>
+                </button>
+                <div class="accordion-content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium
+                        viverra suspendisse potenti.</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <button id="accordion-button-13" aria-expanded="false">
+                    <span class="accordion-title">
+                        13. ¿Qué es un modal de Bootstrap? Pon un ejemplo.
+                    </span>
+                    <span class="icon" aria-hidden="true"></span>
+                </button>
+                <div class="accordion-content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium
+                        viverra suspendisse potenti.</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <button id="accordion-button-14" aria-expanded="false">
+                    <span class="accordion-title">
+                        14. ¿Existen inputs para subir archivos en Bootstrap? Pon un ejemplo.
+                    </span>
+                    <span class="icon" aria-hidden="true"></span>
+                </button>
+                <div class="accordion-content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium
+                        viverra suspendisse potenti.</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <button id="accordion-button-15" aria-expanded="false">
+                    <span class="accordion-title">
+                        15. ¿Qué es un plugin scrollspy en Bootstrap? Pon un ejemplo.
+                    </span>
+                    <span class="icon" aria-hidden="true"></span>
+                </button>
+                <div class="accordion-content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium
+                        viverra suspendisse potenti.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="presentacion.js"></script>
+</body>
+
+</html>
